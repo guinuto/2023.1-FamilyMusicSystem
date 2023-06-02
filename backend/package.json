@@ -8,7 +8,10 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "test": "jest --forceExit --detectOpenHandles"
+    "test": "jest --forceExit --detectOpenHandles",
+    "test:actions": "echo \"Tests running...\"",
+    "build:actions": "echo \"Build running...\"",
+    "deploy:actions": "echo \"Deploying new build to cloud server...\""
   },
   "devDependencies": {
     "jest": "^29.5.0",

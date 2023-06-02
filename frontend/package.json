@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "jest --verbose",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "test:actions": "echo \"Tests running...\"",
+    "build:actions": "echo \"Build running...\"",
+    "deploy:actions": "echo \"Deploying new build to cloud server...\""
   },
   "private": true,
   "dependencies": {
