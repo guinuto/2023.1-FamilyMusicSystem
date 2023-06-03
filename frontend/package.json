@@ -10,8 +10,7 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand",
     "test:actions": "echo \"Tests running...\"",
-    "build:actions": "echo \"Build running...\"",
-    "deploy:actions": "echo \"Deploying new build to cloud server...\""
+    "build:actions": "echo \"Build running...\""
   },
   "private": true,
   "dependencies": {

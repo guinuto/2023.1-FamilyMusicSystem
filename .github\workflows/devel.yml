@@ -2,7 +2,7 @@ name: Hello GitHub Actions
 
 on:
     push:
-        branches: ["ci-test"] 
+        branches: [ci-test] 
 
 jobs:
     build:
@@ -15,5 +15,3 @@ jobs:
             - run: npm ci
             - run: npm run test:actions
             - run: npm run buid:actions
-            - run: npm run deploy:actions
-
