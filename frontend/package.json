@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "jest --verbose",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
