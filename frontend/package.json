@@ -12,7 +12,7 @@
     "test": "jest --verbose",
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
